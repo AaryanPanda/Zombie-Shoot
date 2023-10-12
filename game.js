@@ -86,14 +86,14 @@ function adjustDivWidth(widthPercentage) {
   }
 
 
-let lives=5
+let lives=4
 let widthPercentage = 100
 
 function zombieEscape(zombie) {   
     
     if (zombie.getBoundingClientRect().top < 50) {
         lives-=1
-        widthPercentage-=20
+        widthPercentage-=25
 
         adjustDivWidth(widthPercentage)
         
