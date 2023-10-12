@@ -1,5 +1,5 @@
 const button = document.getElementById("button");
 
 button.onclick = () => {
-  location.href = "./game.html";
+  location.href = "game.html";
 };
